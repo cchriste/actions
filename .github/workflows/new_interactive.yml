@@ -33,4 +33,4 @@ jobs:
         echo test, and deploy your project.
 
     - name: Setup Debug Session
-      uses: csexton/debugger-action@master
+      uses: cchriste/debugger-action@master
