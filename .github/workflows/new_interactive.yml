@@ -33,4 +33,14 @@ jobs:
         echo test, and deploy your project.
 
     - name: Setup Debug Session
+      uses: csexton/debugger-action@master
+
+    - name: Run a one-line script
+      run: done with csexton's debugger-action!
+
+    - name: Setup Debug Session
       uses: cchriste/actions@master
+
+    - name: Run a one-line script
+      run: done with cchriste's debugger-action!
+
