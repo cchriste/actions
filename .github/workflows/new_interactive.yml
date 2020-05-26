@@ -37,9 +37,9 @@ jobs:
 
     - name: Run a one-line script
       run: done with csexton's debugger-action!
-
+      
     - name: Setup Debug Session
-      run: cchriste/actions@master
+      uses: csexton/debugger-action@master
 
     - name: Run a one-line script
       run: done with cchriste's debugger-action!
